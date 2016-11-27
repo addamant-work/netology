@@ -14,9 +14,8 @@ if (isset($_POST['number'])) {
   }
 }
 else {
-  $number = 0;
+  $number = NULL;
 }
-echo "<p>Вы ввели: ".$b."!</p>";
 ?>
 <form action method="post">
   <input name="number">
