@@ -17,7 +17,7 @@ else {
   $number = NULL;
 }
 ?>
-<form action method="post">
+<form action="" method="post">
   <input name="number">
   <button>Совпало?!</button>
 </form>
